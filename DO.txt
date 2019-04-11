@@ -1,0 +1,10 @@
+1) In restController https://stackoverflow.com/questions/33062509/returning-view-from-spring-mvc-restcontroller:
+
+@RequestMapping
+public ModelAndView renderFooList() {
+    ModelAndView mav = new ModelAndView("foo/list");
+    mav.addObject("foos", fooService.getFoos());
+    return mav;
+}
+
+2)Autowired constructor in controller 
