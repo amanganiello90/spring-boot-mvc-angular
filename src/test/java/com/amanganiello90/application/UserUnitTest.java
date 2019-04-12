@@ -1,10 +1,10 @@
-package com.baeldung.crud;
+package com.amanganiello90.application;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
 
-import com.baeldung.crud.entities.User;
+import com.amanganiello90.application.entities.User;
 
 public class UserUnitTest {
     

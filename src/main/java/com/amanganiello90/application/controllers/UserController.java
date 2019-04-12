@@ -1,4 +1,4 @@
-package com.baeldung.crud.controllers;
+package com.amanganiello90.application.controllers;
 
 import javax.validation.Valid;
 
@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.baeldung.crud.entities.User;
-import com.baeldung.crud.repositories.UserRepository;
+import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.repositories.UserRepository;
+
 import java.lang.Iterable;
 
 @Controller
@@ -27,7 +28,7 @@ public class UserController {
 	@GetMapping("/")
 	public String homePage(Model model) {
 		Iterable<User> users = userRepository.findAll();
-		//if (users.hasNext())
+		if (users.iterator().hasNext())
 			model.addAttribute("users", users);
 		return "index";
 	}

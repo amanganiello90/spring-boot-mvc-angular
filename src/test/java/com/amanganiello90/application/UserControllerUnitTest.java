@@ -1,4 +1,4 @@
-package com.baeldung.crud;
+package com.amanganiello90.application;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -9,9 +9,9 @@ import org.junit.Test;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 
-import com.baeldung.crud.controllers.UserController;
-import com.baeldung.crud.entities.User;
-import com.baeldung.crud.repositories.UserRepository;
+import com.amanganiello90.application.controllers.UserController;
+import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.repositories.UserRepository;
 
 public class UserControllerUnitTest {
 
