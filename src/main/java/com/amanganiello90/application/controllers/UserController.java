@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.models.entities.User;
 import com.amanganiello90.application.repositories.UserRepository;
 
 import java.lang.Iterable;

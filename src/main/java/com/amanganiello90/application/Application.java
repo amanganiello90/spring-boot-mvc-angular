@@ -8,7 +8,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.models.entities.User;
 import com.amanganiello90.application.repositories.UserRepository;
 
 import springfox.documentation.builders.PathSelectors;

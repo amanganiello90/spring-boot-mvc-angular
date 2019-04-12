@@ -4,7 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
 
-import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.models.entities.User;
 
 public class UserUnitTest {
     

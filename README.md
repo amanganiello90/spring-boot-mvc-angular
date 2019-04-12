@@ -6,6 +6,7 @@ So there are a **UserController** and a **UserRestController** to expose api and
 ## News
 
 - RestController **/api**: GET and POST **/users**
+- RestController **/api**: GET **/message/{name}** with MessageTO and Service business logic
 - Added Swagger ui in **/swagger-ui.html**
 
 ## NEXT DEVELOPMENTS (checked in progress)

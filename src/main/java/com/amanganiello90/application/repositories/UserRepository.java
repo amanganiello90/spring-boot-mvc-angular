@@ -4,7 +4,7 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.models.entities.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {

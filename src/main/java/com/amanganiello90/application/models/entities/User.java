@@ -1,4 +1,4 @@
-package com.amanganiello90.application.entities;
+package com.amanganiello90.application.models.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

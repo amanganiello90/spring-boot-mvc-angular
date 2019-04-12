@@ -10,7 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 
 import com.amanganiello90.application.controllers.UserController;
-import com.amanganiello90.application.entities.User;
+import com.amanganiello90.application.models.entities.User;
 import com.amanganiello90.application.repositories.UserRepository;
 
 public class UserControllerUnitTest {
