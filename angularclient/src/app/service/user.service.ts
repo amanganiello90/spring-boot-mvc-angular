@@ -2,14 +2,16 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { User } from '../model/user';
 import { Observable } from 'rxjs/Observable';
+import { environment } from '../../environments/environment';
 
 @Injectable()
 export class UserService {
 
   private usersUrl: string;
+  private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) {
-    this.usersUrl = 'http://localhost:8081/users';
+    this.usersUrl = this.apiUrl+'/users';
   }
 
   public findAll(): Observable<User[]> {
